@@ -11,7 +11,8 @@ body {
 
 .title {
     font-family: 'Inter', sans-serif;
-    width: 400px;
+    width: 425px;
+    font-size: 36px;
 }
 
 span {
@@ -23,6 +24,7 @@ span {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     width: 350px;
+    line-height: 25px;
 }
 
 .stat-count {
@@ -39,4 +41,26 @@ span {
 img {
     width: 485px;
     height: 400px;
+}
+
+.col-1 {
+    padding: 30px;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.row-2 div {
+    margin: 20px;
+    text-align: center;
+}
+
+.row-2 div h2 {
+    font-size: 30px;
+    width: max-content;
+}
+
+.row-2 div:first-child {
+    margin-left: 0;
 }
