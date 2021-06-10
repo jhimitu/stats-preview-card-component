@@ -1,74 +1,103 @@
+html,
 body {
-    background-color: #090b1a;
-    color: #ffffff;
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  background-color: #090b1a;
+  color: #ffffff;
 }
 
 .container {
-    background-color: hsl(244, 38%, 16%);
-    width: 1010px;
-    height: 405px;
+  background-color: hsl(244, 38%, 16%);
+  width: 1010px;
+  height: 405px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.attribution {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
 .title {
-    font-family: 'Inter', sans-serif;
-    width: 425px;
-    font-size: 33px;
+  font-family: "Inter", sans-serif;
+  width: 425px;
+  font-size: 33px;
 }
 
 span {
-    color: hsl(277, 64%, 61%);
+  color: hsl(277, 64%, 61%);
 }
 
 .overview {
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    width: 350px;
-    line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  width: 350px;
+  line-height: 25px;
 }
 
 .stat-count {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .stat-category {
-    color: hsla(0, 0%, 100%, 0.6);
-    text-transform: uppercase;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
 img {
-    width: 500px;
-    height: 405px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+  width: 500px;
+  height: 405px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .container {
-    display: flex;
-    border-radius: 5px;
+  display: flex;
+  border-radius: 5px;
 }
 
 .col-1 {
-    padding: 40px 25px 40px 60px;
+  padding: 40px 25px 40px 60px;
+}
+
+.col-2 {
+  background-color: rgb(170, 92, 219, 1);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+img {
+  opacity: 0.5;
 }
 
 .row-2 {
-    display: flex;
+  display: flex;
 }
 
 .row-2 div {
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .row-2 div h2 {
-    font-size: 30px;
-    width: max-content;
-    font-size: 22px;
+  font-size: 30px;
+  width: max-content;
+  font-size: 22px;
 }
 
 .row-2 div:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
