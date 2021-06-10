@@ -6,13 +6,13 @@ body {
 .container {
     background-color: hsl(244, 38%, 16%);
     width: 1010px;
-    height: 400px;
+    height: 405px;
 }
 
 .title {
     font-family: 'Inter', sans-serif;
     width: 425px;
-    font-size: 36px;
+    font-size: 33px;
 }
 
 span {
@@ -39,12 +39,19 @@ span {
 }
 
 img {
-    width: 485px;
-    height: 400px;
+    width: 500px;
+    height: 405px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container {
+    display: flex;
+    border-radius: 5px;
 }
 
 .col-1 {
-    padding: 30px;
+    padding: 40px 25px 40px 60px;
 }
 
 .row-2 {
@@ -59,6 +66,7 @@ img {
 .row-2 div h2 {
     font-size: 30px;
     width: max-content;
+    font-size: 22px;
 }
 
 .row-2 div:first-child {
